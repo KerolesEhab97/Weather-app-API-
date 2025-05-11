@@ -1,0 +1,148 @@
+/* ! =================== NavBar =================== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-custom {
+  background-color: #1e202b;
+}
+
+.navbar-brand span {
+  color: white;
+  font-size: 18px;
+}
+.fs-6 {
+  font-size: 11px !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 16px;
+  padding: 2px 12px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+.nav-link.home {
+  color: #009ad8 !important;
+  border: 2px solid #009ad8;
+  border-radius: 50px;
+}
+.nav-link:hover {
+  color: #009ad8 !important;
+  border: 2px solid #009ad8;
+  border-radius: 50px;
+  transition: color 0.3s ease;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+/* ! =================== Start =================== */
+body {
+  background: #1e202b;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  height: 350px;
+  width: 100%;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  /* background-position: center; */
+  z-index: -1;
+}
+input.big {
+  border: 0;
+}
+input.small {
+  top: 28px;
+  right: 3px;
+  bottom: 28px;
+  border: 0;
+  background-color: #009ad8;
+  padding-inline: 35px;
+  color: white;
+}
+/* ! =================== Forcast =================== */
+.dayes {
+  background: #323544;
+}
+.forecast-header {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.today {
+  background-color: #323544;
+}
+.num {
+  font-size: 80px;
+  font-weight: 750;
+}
+.forecast-icon img {
+  width: 90px;
+  height: auto;
+}
+.icons img {
+  width: 20px;
+  height: auto;
+  margin: 5px;
+}
+#today-text,
+.next-text {
+  font-size: 14px;
+}
+/* ! =================== Next day =================== */
+.next-day {
+  background-color: #262936;
+}
+.forecast-icon2 img {
+  width: 50px;
+  height: auto;
+  margin-top: 30px;
+}
+/* ! =================== Third day =================== */
+.third-day {
+  background-color: #323544;
+}
+/* ! =================== Third day =================== */
+footer {
+  background: #262936;
+}
+.social-links i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #1e202b;
+  border-radius: 50%;
+  color: #009ad8;
+  margin-inline: 5px;
+}
+.social-links i:hover {
+  color: white;
+  background-color: #009ad8;
+}
+.container p.Copyright {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.form2 .big {
+  background-color: #1e202b;
+}
